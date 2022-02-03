@@ -1,0 +1,18 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang__links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/lead/lead.css);
+
+* {
+  outline: 1px solid white;
+}
+
+/* 
+1. хедер. добавить подчеркивание при наведении на язык
+2. readme
+3. 
+
+*/
