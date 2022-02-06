@@ -5,3 +5,13 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 0 0 24px;
+    margin: 0 0 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

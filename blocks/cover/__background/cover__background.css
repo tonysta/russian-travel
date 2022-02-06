@@ -1,16 +1,23 @@
 .cover__background {
-  width: 92%;
-  height: 740px;
-  margin: 0 auto 92px;
+  width: 100%;
+  height: calc((100vw) * 0.625);
+  max-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 0 auto 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .cover__background {
     width: 100%;
-    height: 640px;
+    height: calc((100vw) * 0.625);
+    max-height: 740px;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto 64px;
   }
 }
