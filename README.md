@@ -15,3 +15,8 @@
 - grid
 - flex
 - git
+- БЭМ
+
+## Ссылка на проект:
+
+https://tonysta.github.io/russian-travel/
