@@ -1,7 +1,6 @@
 .lead__caption {
-  width: calc(100% - 23%);
   align-self: start;
-  margin: 0 auto 92px;
+  margin: 0 0 92px 148px;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -9,4 +8,44 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    align-self: start;
+    margin: 0 0 92px 48px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    align-self: start;
+    margin: 0 0 88px 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+@media all and (max-width: 425px) {
+  .lead__caption {
+    align-self: start;
+    margin: 0 0 64px 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
 }

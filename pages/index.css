@@ -4,8 +4,9 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__lang__links/header__lang-links.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__logo/header__logo.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -41,7 +42,7 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 
-.cover * {
+.places * {
   outline: 1px solid white;
 }
 
@@ -49,5 +50,17 @@
 
 2. readme
 3. 
+
+от 1024 и до 1280 — для небольших ноутбуков,
+от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета,
+от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета,
+до 425 пикселей — мобильные устройства.
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media all and (max-width: 425px) {
+}
 
 */

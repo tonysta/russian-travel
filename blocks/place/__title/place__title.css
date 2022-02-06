@@ -1,6 +1,14 @@
-.place__title {
-  width: 47%;
+/* .place__title {
+  width: 460px;
   margin: 0 0 48px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  color: #ffffff;
+} */
+
+.place__title {
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
