@@ -14,12 +14,12 @@
           src="./images/header-logo.svg"
           alt="логотип территория России"
         />
-        <ul class="header__lang-links">
-          <li><a href="#" class="header__lang-link">Ru</a></li>
-          <li><a href="#" class="header__lang-link">En</a></li>
-        </ul>
+        <nav class="header__lang-links">
+          <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+          <a href="#" class="header__lang-link">En</a>
+        </nav>
       </header>
-      <div class="main">
+      <main class="main">
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">
@@ -119,7 +119,7 @@
           />
         </section>
         <section class="places">
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -130,7 +130,7 @@
               alt="берег Куршской косы"
               class="place__image"
             />
-            <article class="place__paragraphs">
+            <div class="place__paragraphs">
               <p class="place__paragraph">
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
                 водных горизонта — спокойного Куршского залива с одной стороны и
@@ -145,9 +145,9 @@
                 исключает суету, окуная в спокойствие природы и запах стального,
                 прохладного моря.
               </p>
-            </article>
-          </div>
-          <div class="place">
+            </div>
+          </article>
+          <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -162,7 +162,7 @@
               alt="остров Кольский"
               class="place__image"
             />
-            <article class="place__paragraphs">
+            <div class="place__paragraphs">
               <p class="place__paragraph">
                 Почти весь полуостров находится за Полярным кругом. Саамская
                 тундра, от которой на юг — тайга, а на север — Ледовитый океан,
@@ -177,9 +177,9 @@
                 апатия. Но ваша мечта увидеть северное сияние начинает сбываться
                 с билетом в Мурманск.
               </p>
-            </article>
-          </div>
-          <div class="place">
+            </div>
+          </article>
+          <article class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -194,7 +194,7 @@
               alt="ноутбук на фоне деревьев"
               class="place__image"
             />
-            <article class="place__paragraphs">
+            <div class="place__paragraphs">
               <p class="place__paragraph">
                 Алтай — одно из красивейших мест в России. В первую очередь
                 из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
@@ -209,9 +209,9 @@
                 пасутся косули. И знаменитые манулы — тоже обитатели Алтайского
                 края.
               </p>
-            </article>
-          </div>
-          <div class="place">
+            </div>
+          </article>
+          <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -224,7 +224,7 @@
               alt="трещины во льду"
               class="place__image"
             />
-            <article class="place__paragraphs">
+            <div class="place__paragraphs">
               <p class="place__paragraph">
                 Всем известен Байкал как крупнейшее озеро в мире. Многие также
                 знают, что это самый большой источник пресной воды и одно из
@@ -238,9 +238,9 @@
                 фестивале «Байкальская миля» был поставлен мировой рекорд —
                 197.011 км/ч.
               </p>
-            </article>
-          </div>
-          <div class="place">
+            </div>
+          </article>
+          <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -253,7 +253,7 @@
               alt="река в лесу"
               class="place__image"
             />
-            <article class="place__paragraphs">
+            <div class="place__paragraphs">
               <p class="place__paragraph">
                 Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
                 сибирская лиственница не растёт западнее Водлозера. Зато здесь
@@ -265,8 +265,8 @@
                 тропы. А на редких тропинках деревья в паре метров от земли
                 помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </p>
-            </article>
-          </div>
+            </div>
+          </article>
         </section>
         <section class="cover">
           <div class="cover__background">
@@ -282,7 +282,7 @@
             </a>
           </div>
         </section>
-      </div>
+      </main>
       <footer class="footer">
         <nav class="footer__links">
           <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
