@@ -11,25 +11,12 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
-    font-style: normal;
-    font-weight: 900;
     font-size: 42px;
-    line-height: 1.06;
-    color: #ffffff;
-    justify-self: start;
-    align-self: end;
-    margin: 0 0 8px;
   }
 }
 @media all and (max-width: 425px) {
   .place__title {
-    font-style: normal;
-    font-weight: 900;
     font-size: 32px;
-    line-height: 1.06;
-    color: #ffffff;
-    justify-self: start;
-    align-self: end;
     margin: 0 auto 8px 16px;
   }
 }

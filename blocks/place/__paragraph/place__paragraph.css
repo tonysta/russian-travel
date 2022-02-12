@@ -12,41 +12,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place__paragraph {
-    margin: 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.63;
-    color: #ffffff;
-  }
-
   .place__paragraph:nth-child(1) {
     margin-bottom: 27px;
   }
 }
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    margin: 0;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.63;
-    color: #ffffff;
-  }
 
-  .place__paragraph:nth-child(1) {
-    margin-bottom: 26px;
-  }
-}
 @media all and (max-width: 600px) {
   .place__paragraph {
     margin: 0 16px;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    line-height: 1.63;
-    color: #ffffff;
   }
 
   .place__paragraph:nth-child(1) {

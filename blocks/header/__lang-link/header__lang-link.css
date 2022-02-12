@@ -15,13 +15,7 @@
 
 @media screen and (max-width: 425px) {
   .header__lang-link {
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 1.1;
-    text-align: right;
-    margin-left: 18px;
-    color: white;
-    text-decoration: none;
   }
 }
