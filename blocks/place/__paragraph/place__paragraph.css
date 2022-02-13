@@ -17,7 +17,18 @@
   }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 768px) {
+  .place__paragraph {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .place__paragraph:nth-child(1) {
+    margin-bottom: 25px;
+  }
+}
+
+@media all and (max-width: 425px) {
   .place__paragraph {
     margin: 0 16px;
     font-size: 16px;
